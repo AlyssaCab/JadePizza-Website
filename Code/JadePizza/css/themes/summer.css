@@ -1,0 +1,72 @@
+/*-------------------------------------------------------------
+/* File: summer.css
+/* Description: Summer theme stylesheet for Jade Pizza
+/*-------------------------------------------------------------
+/* Author: Alyssa Cabana
+/*-------------------------------------------------------------*/
+/*--------------------------------------
+/* Base colors
+/*--------------------------------------*/
+body {
+    background-color: #fffbea; 
+    color: #333333;
+}
+/*--------------------------------------
+/* Header and nav
+/*--------------------------------------*/
+header {
+    background-color: #ffb300; 
+    color: white;
+}
+
+nav a {
+    color: #fffde7;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/*--------------------------------------
+/* Hero section
+/*--------------------------------------*/
+.hero {
+    background-color: #ffe082; 
+    color: #e65100; 
+}
+/*--------------------------------------
+/* Cards
+/*--------------------------------------*/
+.pizza-card,
+.deal-card {
+    background: #fffdf0; 
+    border: 1px solid #ffe0b2;
+}
+/*--------------------------------------
+/* Call to action section
+/*--------------------------------------*/
+.call-to-action {
+    color: #ef6c00; 
+}
+/*--------------------------------------
+/* Footer
+/*--------------------------------------*/
+footer {
+    background-color: #ffb300;
+    color: white;
+}
+/*--------------------------------------
+/* Contact button
+/*--------------------------------------*/
+.nav-contact-button {
+    background-color: #ffe082;
+    color: #e65100;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

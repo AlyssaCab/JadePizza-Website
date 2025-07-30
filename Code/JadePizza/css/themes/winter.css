@@ -1,0 +1,72 @@
+/*-------------------------------------------------------------
+/* File: winter.css
+/* Description: Winter theme stylesheet for Jade Pizza
+/*-------------------------------------------------------------
+/* Author: Alyssa Cabana
+/*-------------------------------------------------------------*/
+/*--------------------------------------
+/* Base colors
+/*--------------------------------------*/
+body {
+    background-color: #f0f4f8; 
+    color: #1c1c1c; 
+}
+/*--------------------------------------
+/* Header and nav
+/*--------------------------------------*/
+header {
+    background-color: #1565c0;
+    color: white;
+}
+
+nav a {
+    color: #e3f2fd; 
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+/*--------------------------------------
+/* Hero section
+/*--------------------------------------*/
+.hero {
+    background-color: #bbdefb;
+    color: #0d47a1; 
+}
+/*--------------------------------------
+/* Cards
+/*--------------------------------------*/
+.pizza-card,
+.deal-card {
+    background: #ffffff;
+    border: 1px solid #cfd8dc; 
+}
+/*--------------------------------------
+/* Call to action section
+/*--------------------------------------*/
+.call-to-action {
+    color: #0d47a1;
+}
+/*--------------------------------------
+/* Footer
+/*--------------------------------------*/
+footer {
+    background-color: #1565c0;
+    color: white;
+}
+/*--------------------------------------
+/* Contact button
+/*--------------------------------------*/
+.nav-contact-button {
+    background-color: #bbdefb;
+    color: #0d47a1;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

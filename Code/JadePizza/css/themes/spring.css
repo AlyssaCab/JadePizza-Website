@@ -1,0 +1,72 @@
+/*-------------------------------------------------------------
+/* File: spring.css
+/* Description: Spring theme stylesheet for Jade Pizza
+/*-------------------------------------------------------------
+/* Author: Alyssa Cabana
+/*-------------------------------------------------------------*/
+/*--------------------------------------
+/* Base colors
+/*--------------------------------------*/
+body {
+    background-color: white;
+    color: black;
+}
+/*--------------------------------------
+/* Header and nav
+/*--------------------------------------*/
+header {
+    background-color: #2e7d32; 
+    color: white;
+}
+
+nav a {
+    color: #e8f5e9;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+/*--------------------------------------
+/* Hero section
+/*--------------------------------------*/
+.hero {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+/*--------------------------------------
+/* Cards
+/*--------------------------------------*/
+.pizza-card,
+.deal-card {
+    background: white;
+    border: 1px solid #c8e6c9;
+}
+/*--------------------------------------
+/* Call to action section
+/*--------------------------------------*/
+.call-to-action {
+    color: #1b5e20;
+}
+/*--------------------------------------
+/* Footer
+/*--------------------------------------*/
+footer {
+    background-color: #2e7d32;
+    color: white;
+}
+/*--------------------------------------
+/* Contact button
+/*--------------------------------------*/
+.nav-contact-button {
+    background-color: #4CAF50;
+    color: #1b5e20;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

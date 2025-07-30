@@ -1,0 +1,73 @@
+/*-------------------------------------------------------------
+/* File: fall.css
+/* Description: Fall theme stylesheet for Jade Pizza
+/*-------------------------------------------------------------
+/* Author: Alyssa Cabana
+/*-------------------------------------------------------------*/
+
+/*--------------------------------------
+/* Base colors
+/*--------------------------------------*/
+body {
+    background-color: #fff8f0;
+    color: #3e2723;
+}
+/*--------------------------------------
+/* Header and nav
+/*--------------------------------------*/
+header {
+    background-color: #8d6e63; 
+    color: white;
+}
+
+nav a {
+    color: #ffecb3; 
+}
+
+nav a:hover {
+    background-color: rgba(255, 204, 128, 0.3); 
+}
+/*--------------------------------------
+/* Hero section
+/*--------------------------------------*/
+.hero {
+    background-color: #ffe0b2;
+    color: #6d4c41; 
+}
+/*--------------------------------------
+/* Cards
+/*--------------------------------------*/
+.pizza-card,
+.deal-card {
+    background: #fff3e0;
+    border: 1px solid #ffcc80; 
+}
+/*--------------------------------------
+/* Call to action section
+/*--------------------------------------*/
+.call-to-action {
+    color: #bf360c; 
+}
+/*--------------------------------------
+/* Footer
+/*--------------------------------------*/
+footer {
+    background-color: #8d6e63;
+    color: white;
+}
+/*--------------------------------------
+/* Contact button
+/*--------------------------------------*/
+.nav-contact-button {
+    background-color: #ffe0b2;
+    color: #6d4c41;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
